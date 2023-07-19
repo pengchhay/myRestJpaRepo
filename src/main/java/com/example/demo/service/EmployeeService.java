@@ -42,5 +42,9 @@ public class EmployeeService {
 		repository.deleteById(id);
 		return "Employee "+id+" Deleted";
 	}
+	public void show()
+	{
+		System.out.println("new change");
+	}
 
 }
